@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100%;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.eee{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.block{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 1.5px solid rgb(51, 163, 51);
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1224px) {
+    .eee{
+        display: block;
+    }
+}
